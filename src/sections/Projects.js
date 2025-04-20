@@ -1,9 +1,9 @@
 // src/sections/Projects.js
 import React from 'react';
 import ProjectCard from '../components/ProjectCard';
-import PortfolioProjectImage from '../assests/Portfolio Website Project.png';
-import FakeNewDetProject from '../assests/FakeNewDet Project.png';
-import CybersecurityWebProject from '../assests/CyberSecurity Web Project.jpg';
+import PortfolioProjectImage from '../assests/Portfolio-Website-Project.png';
+import FakeNewDetProject from '../assests/FakeNewDet-Project.png';
+import CybersecurityWebProject from '../assests/CyberSecurity-Web-Project.jpg';
 
 const projectData = [
   {
