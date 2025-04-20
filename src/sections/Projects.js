@@ -10,7 +10,7 @@ const projectData = [
     title: "Portfolio Website",
     description: " React and Tailwind CSS, .NET Core.",
     image: PortfolioProjectImage,
-    link: "/",
+    link: "https://github.com/laxmanrao23/my-portfolio",
   },
   {
     title: "Fake New Detection Using NLP",

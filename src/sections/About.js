@@ -1,14 +1,7 @@
 // src/sections/About.js
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faAward,
-  faCertificate,
-  faBook,
-  faExternalLinkAlt,
-  faStar,
-  faUser,
-} from '@fortawesome/free-solid-svg-icons'
+import { faStar } from '@fortawesome/free-solid-svg-icons'
 
 const About = () => {
 
@@ -50,9 +43,9 @@ const About = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
-        {/* Subsection 2.1: AI/ML Skills */}
+        
 
-        {/* Subsection 2.2: Web Development Skills */}
+        {/* Subsection 2.1: Web Development Skills */}
         <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
           <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">Web Development Skills</h2>
           <div className="flex flex-wrap gap-4">
@@ -63,7 +56,7 @@ const About = () => {
           </div>
         </div>
 
-        {/* Subsection 2.3: Others */}
+        {/* Subsection 2.2: Others */}
         <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
           <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">Others</h2>
           <div className="flex flex-wrap gap-4">
@@ -77,7 +70,7 @@ const About = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
-        {/* Subsection 3.1: Certifications */}
+        {/* Subsection 3: Certifications */}
         <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
           <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">Certifications</h2>
           <ul className="space-y-2">
