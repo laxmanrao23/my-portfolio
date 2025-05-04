@@ -14,20 +14,56 @@ const Contact = () => {
     message: "",
   });
 
+  const [errors, setErrors] = useState({});
+  const validate = () => {
+    const newErrors = {};
+
+    // Full name: only alphabets and spaces
+    if (!formData.fullName.trim()) {
+      newErrors.fullName = 'Full name is required';
+    } else if (!/^[A-Za-z\s]+$/.test(formData.fullName)) {
+      newErrors.fullName = 'Full name must contain only letters and spaces';
+    }
+
+    // Email: basic format check
+    if (!formData.email.trim()) {
+      newErrors.email = 'Email is required';
+    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
+      newErrors.email = 'Invalid email format';
+    }
+
+    // Message: required
+    if (!formData.message.trim()) {
+      newErrors.message = 'Message is required';
+    }
+
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
+
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("http://localhost:3000/send-email", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(formData),
-    });
 
-    const result = await response.json();
-    alert(result.message);
+    if (!validate() ) return;
+
+    try {
+      const response = await fetch("https://localhost:5001/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+  
+      const result = await response.json();
+      alert(result.message);
+    } catch (error) {
+      alert("Something went wrong!");
+    }
+    
   };
 
   return (
@@ -53,9 +89,19 @@ const Contact = () => {
 
         {/* Section 2: Contact Form */}
         <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
+          <div>
           <input type="text" name="fullName" placeholder="Full Name" onChange={handleChange} required className="w-full p-3 border rounded-2xl bg-white dark:bg-gray-700 text-black dark:text-white shadow-sm" />
+          {errors.fullName && <p className="text-red-500 text-sm">{errors.fullName}</p>}
+          </div>
+          <div>
           <input type="email" name="email" placeholder="Your Email" onChange={handleChange} required className="w-full p-3 border rounded-2xl bg-white dark:bg-gray-700 text-black dark:text-white shadow-sm" />
+          {errors.email && <p className="text-red-500 text-sm">{errors.email}</p>}
+          </div>
+          <div>
           <textarea name="message" placeholder="Your Message" onChange={handleChange} required className="w-full p-3 border rounded-2xl bg-white dark:bg-gray-700 text-black dark:text-white h-32 shadow-sm"></textarea>
+          {errors.message && <p className="text-red-500 text-sm">{errors.message}</p>}
+          </div>
+          
           <button type="submit" className="w-full p-3 bg-blue-500 dark:bg-blue-600 text-white rounded-2xl shadow-md hover:bg-blue-600 dark:hover:bg-blue-700 transition">
             Send Message
           </button>
