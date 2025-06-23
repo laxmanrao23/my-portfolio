@@ -47,26 +47,27 @@ const Contact = () => {
   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
+  e.preventDefault();
 
-    if (!validate() ) return;
+  if (!validate()) return;
 
-    try {
-      //const response = await fetch("http://localhost:5050/api/contact", {
-      const response = await fetch("https://sheetdb.io/api/v1/ssmi0cl36rv3c", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
-      });
-  
-      const result = await response.json();
-      console.log(result)
-      alert(result.message);
-    } catch (error) {
-      alert("Something went wrong!");
-    }
-    
-  };
+  try {
+    const response = await fetch("https://sheetdb.io/api/v1/ssmi0cl36rv3c", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ data: formData }),
+    });
+
+    const result = await response.json();
+    console.log(result);
+    alert("Message sent successfully!");
+    setFormData({ fullName: "", email: "", message: "" });
+  } catch (error) {
+    console.error(error);
+    alert("Something went wrong!");
+  }
+};
+
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 p-6">
