@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/slaxmanrao/Downloads/my-portfolio-master 2/server/ContactAPI/ContactAPI.csproj": {}
+    "/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/ContactAPI.csproj": {}
   },
   "projects": {
-    "/Users/slaxmanrao/Downloads/my-portfolio-master 2/server/ContactAPI/ContactAPI.csproj": {
+    "/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/ContactAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/slaxmanrao/Downloads/my-portfolio-master 2/server/ContactAPI/ContactAPI.csproj",
+        "projectUniqueName": "/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/ContactAPI.csproj",
         "projectName": "ContactAPI",
-        "projectPath": "/Users/slaxmanrao/Downloads/my-portfolio-master 2/server/ContactAPI/ContactAPI.csproj",
+        "projectPath": "/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/ContactAPI.csproj",
         "packagesPath": "/Users/slaxmanrao/.nuget/packages/",
-        "outputPath": "/Users/slaxmanrao/Downloads/my-portfolio-master 2/server/ContactAPI/obj/",
+        "outputPath": "/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/slaxmanrao/.nuget/NuGet/NuGet.Config"
