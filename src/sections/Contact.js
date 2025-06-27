@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import gitHubImage from '../assests/icons8-github.svg';
 import linkedInImage from '../assests/icons8-linkedin.svg';
 import xImage from '../assests/icons8-x.svg';
+import emailjs from '@emailjs/browser';
+
 //import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
@@ -57,6 +59,18 @@ const Contact = () => {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ data: formData }),
     });
+
+    // Send email with EmailJS
+    await emailjs.send(
+      "your_service_id",     // Replace with actual service ID
+      "your_template_id",    // Replace with actual template ID
+      {
+        fullName: formData.fullName,
+        email: formData.email,
+        message: formData.message,
+      },
+      "your_public_key"      // Replace with actual public key
+    );
 
     const result = await response.json();
     console.log(result);
