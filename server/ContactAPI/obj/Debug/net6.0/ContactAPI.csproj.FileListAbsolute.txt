@@ -64,3 +64,36 @@ C:/Users/LAXMAN/my-portfolio/server/ContactAPI/obj/Debug/net6.0/ref/ContactAPI.d
 /Users/slaxmanrao/Downloads/my-portfolio-master 2/server/ContactAPI/obj/Debug/net6.0/ContactAPI.genruntimeconfig.cache
 /Users/slaxmanrao/Downloads/my-portfolio-master 2/server/ContactAPI/obj/Debug/net6.0/ref/ContactAPI.dll
 /Users/slaxmanrao/Downloads/my-portfolio-master 2/server/ContactAPI/obj/Debug/net6.0/ContactAPI.csproj.CopyComplete
+/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/bin/Debug/net6.0/appsettings.Development.json
+/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/bin/Debug/net6.0/appsettings.json
+/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/bin/Debug/net6.0/ContactAPI
+/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/bin/Debug/net6.0/ContactAPI.deps.json
+/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/bin/Debug/net6.0/ContactAPI.runtimeconfig.json
+/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/bin/Debug/net6.0/ContactAPI.dll
+/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/bin/Debug/net6.0/ContactAPI.pdb
+/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/bin/Debug/net6.0/DnsClient.dll
+/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/bin/Debug/net6.0/MongoDB.Bson.dll
+/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/bin/Debug/net6.0/MongoDB.Driver.dll
+/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/bin/Debug/net6.0/SharpCompress.dll
+/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/bin/Debug/net6.0/Snappier.dll
+/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/bin/Debug/net6.0/ZstdSharp.dll
+/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/obj/Debug/net6.0/ContactAPI.csproj.AssemblyReference.cache
+/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/obj/Debug/net6.0/ContactAPI.GeneratedMSBuildEditorConfig.editorconfig
+/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/obj/Debug/net6.0/ContactAPI.AssemblyInfoInputs.cache
+/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/obj/Debug/net6.0/ContactAPI.AssemblyInfo.cs
+/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/obj/Debug/net6.0/ContactAPI.csproj.CoreCompileInputs.cache
+/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/obj/Debug/net6.0/ContactAPI.MvcApplicationPartsAssemblyInfo.cs
+/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/obj/Debug/net6.0/ContactAPI.MvcApplicationPartsAssemblyInfo.cache
+/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/obj/Debug/net6.0/staticwebassets.build.json
+/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/obj/Debug/net6.0/staticwebassets.development.json
+/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/obj/Debug/net6.0/scopedcss/bundle/ContactAPI.styles.css
+/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/obj/Debug/net6.0/ContactAPI.csproj.CopyComplete
+/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/obj/Debug/net6.0/ContactAPI.dll
+/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/obj/Debug/net6.0/refint/ContactAPI.dll
+/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/obj/Debug/net6.0/ContactAPI.pdb
+/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/obj/Debug/net6.0/ContactAPI.genruntimeconfig.cache
+/Users/slaxmanrao/Downloads/my-portfolio/server/ContactAPI/obj/Debug/net6.0/ref/ContactAPI.dll
