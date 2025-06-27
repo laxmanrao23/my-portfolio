@@ -61,16 +61,19 @@ const Contact = () => {
     });
 
     // Send email with EmailJS
-    await emailjs.send(
-      "your_service_id",     // Replace with actual service ID
-      "your_template_id",    // Replace with actual template ID
-      {
-        fullName: formData.fullName,
-        email: formData.email,
-        message: formData.message,
-      },
-      "your_public_key"      // Replace with actual public key
-    );
+    const emailResult = await emailjs.send(
+  "service_h53316u",
+  "template_7od9o5j",
+  {
+    fullName: formData.fullName,
+    email: formData.email,
+    message: formData.message,
+  },
+  "avAH9WO4ooYnWdNqP"
+);
+
+console.log("EmailJS Response:", emailResult); 
+
 
     const result = await response.json();
     console.log(result);
