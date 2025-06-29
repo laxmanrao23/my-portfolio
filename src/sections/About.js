@@ -5,10 +5,11 @@ import { faStar } from '@fortawesome/free-solid-svg-icons'
 
 const About = () => {
 
-  const resumeUrl = "";
+  const resumeUrl = "https://drive.google.com/file/d/1CFgUCvesnzIaZlONeRSyuHof7KuYz9QF/view?usp=sharing";
   const handleDownload = () => {
     window.open(resumeUrl, "_blank");
   };
+
 
   return (
     <div className="p-4 lg:p-8 bg-gray-100 dark:bg-gray-900 min-h-screen">
