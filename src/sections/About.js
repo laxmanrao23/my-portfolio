@@ -10,6 +10,8 @@ const About = () => {
     window.open(resumeUrl, "_blank");
   };
 
+  
+
   return (
     <div className="p-4 lg:p-8 bg-gray-100 dark:bg-gray-900 min-h-screen">
       
@@ -34,7 +36,7 @@ const About = () => {
         <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col justify-center items-center">
         {/* Subsection 1.2: CV */}
         <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
-          <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">Download CV</h2>
+          <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">View CV</h2>₹
           <button className='bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition duration-300' onClick={handleDownload}>
           Download CV
           </button>

@@ -1025,19 +1025,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LAXMAN\\.nuget\\packages\\": {}
+    "/Users/slaxmanrao/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LAXMAN\\my-portfolio\\server\\ContactAPI\\ContactAPI.csproj",
+      "projectUniqueName": "/Users/slaxmanrao/Projects/my-portfolio/my-portfolio/server/ContactAPI/ContactAPI.csproj",
       "projectName": "ContactAPI",
-      "projectPath": "C:\\Users\\LAXMAN\\my-portfolio\\server\\ContactAPI\\ContactAPI.csproj",
-      "packagesPath": "C:\\Users\\LAXMAN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LAXMAN\\my-portfolio\\server\\ContactAPI\\obj\\",
+      "projectPath": "/Users/slaxmanrao/Projects/my-portfolio/my-portfolio/server/ContactAPI/ContactAPI.csproj",
+      "packagesPath": "/Users/slaxmanrao/.nuget/packages/",
+      "outputPath": "/Users/slaxmanrao/Projects/my-portfolio/my-portfolio/server/ContactAPI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\LAXMAN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/slaxmanrao/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -1089,7 +1089,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.428\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.428/RuntimeIdentifierGraph.json"
       }
     }
   }
