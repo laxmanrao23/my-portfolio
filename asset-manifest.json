@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.d8b2a5e3.css",
-    "main.js": "/my-portfolio/static/js/main.ec72fb46.js",
+    "main.css": "/my-portfolio/static/css/main.61e5f12a.css",
+    "main.js": "/my-portfolio/static/js/main.f36ea675.js",
     "static/media/LaxmanDP.jpg": "/my-portfolio/static/media/LaxmanDP.edada0b85dd9b645a81f.jpg",
+    "static/media/JWT-Auth_App.png": "/my-portfolio/static/media/JWT-Auth_App.401c697313fff47be0a8.png",
     "static/media/Portfolio-Website-Project.png": "/my-portfolio/static/media/Portfolio-Website-Project.25b995bce5e5c13f7456.png",
     "static/media/FakeNewDet-Project.png": "/my-portfolio/static/media/FakeNewDet-Project.fad69a5b348619cc1d8b.png",
     "static/media/CyberSecurity-Web-Project.jpg": "/my-portfolio/static/media/CyberSecurity-Web-Project.68aa2212bc10bf14c91f.jpg",
@@ -10,11 +11,11 @@
     "static/media/icons8-linkedin.svg": "/my-portfolio/static/media/icons8-linkedin.c304a4148cde039a54532585f4d47b48.svg",
     "index.html": "/my-portfolio/index.html",
     "static/media/icons8-x.svg": "/my-portfolio/static/media/icons8-x.dc3f1229c98ceb25ed6d9384ae804ca1.svg",
-    "main.d8b2a5e3.css.map": "/my-portfolio/static/css/main.d8b2a5e3.css.map",
-    "main.ec72fb46.js.map": "/my-portfolio/static/js/main.ec72fb46.js.map"
+    "main.61e5f12a.css.map": "/my-portfolio/static/css/main.61e5f12a.css.map",
+    "main.f36ea675.js.map": "/my-portfolio/static/js/main.f36ea675.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8b2a5e3.css",
-    "static/js/main.ec72fb46.js"
+    "static/css/main.61e5f12a.css",
+    "static/js/main.f36ea675.js"
   ]
 }
