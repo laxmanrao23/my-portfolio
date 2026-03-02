@@ -23,12 +23,12 @@ const Home = () => {
         </h1>
         <h2 className="text-2xl md:text-4xl font-bold text-gray-800 dark:text-white mb-4">
           <TypeAnimation
-            sequence={[
-              'Full Stack Developer',
-              1000, // Delay after typing
-              'AI Enthusiast',
+              sequence={[
+              'Java Backend Developer',
               1000,
-              'Problem Solver',
+              'Spring Boot Developer',
+              1000,
+              'Cloud & DevOps Learner',
               1000,
             ]}
             wrapper="span"
@@ -38,9 +38,12 @@ const Home = () => {
           />
         </h2>
         <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-4">
-        I build robust, scalable web applications using ReactJS for intuitive user interfaces and .NET Core for high-performance backend systems. My passion for technology extends into AI integration, enabling smart, data-driven solutions that solve real-world problems.
+I am a Java Backend Developer with 2+ years of experience building secure and scalable enterprise applications. I specialize in Spring Boot, REST API development, database optimization, and clean layered architecture.
 
-Whether it's creating seamless frontend experiences, engineering efficient APIs, or embedding intelligent features, I love turning ideas into impactful digital products. Let's build something amazing!        </p>
+I actively build production-ready applications using Java, Spring Boot, PostgreSQL, Docker, Jenkins, and AWS. I focus on writing clean, maintainable code and deploying cloud-ready backend systems.
+
+Currently, I am strengthening my expertise in microservices, security (JWT), caching (Redis), and CI/CD automation to build reliable and scalable systems.
+</p>
         <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300">
           Let's Connect!
         </p>
